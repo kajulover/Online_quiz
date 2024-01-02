@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div class="container vh-100">
+        <div class="row justify-content-center h-100">
+            <div class="card w-50 my-auto">
+                <div class="btn btn-primary text-center ">
+                    <h1>Registration Form</h1>
+                </div>
+                <div class="card-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" class="form-control" id="firstname" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" class="form-control" id="lastname"required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <div>
+                                <label for="male" class="radio-inline"><input type="radio" name="gender" id="male">Male</label>
+                                <label for="female" class="radio-inline"><input type="radio" name="gender" id="female">Female</label>
+                                <label for="other" class="radio-inline"><input type="radio" name="gender" id="other">Other</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Contact_no">Contact No</label>
+                            <input type="text" class="form-control" id="Contact_no" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" required/>
+                        </div>
+                        <div class="alert"> 
+                        <input type="submit" class="btn btn-primary w-100" value="SignUp">
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="panel-footer text-right">
+                    <small>&copy;Online Quiz</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
